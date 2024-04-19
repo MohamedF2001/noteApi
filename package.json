@@ -4,6 +4,7 @@
   "description": "auth system with nodejs for flutter app",
   "main": "server.js",
   "scripts": {
+    "start": " node server.js --port=$PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mouss",
