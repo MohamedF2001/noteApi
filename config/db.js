@@ -5,7 +5,10 @@ const uri = "mongodb+srv://MoussF:mohamed2001@cluster0.rde6y.mongodb.net/baseNot
 
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect( uri ,/* dbConfig.database, */ {
+        const conn = await mongoose.connect( 
+            uri ,
+            //dbConfig.database,  
+            {
             //useNewUrlParser: true,
             //useUnifiedTopology: true,
             //useFindAndModify: false
